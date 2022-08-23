@@ -1,0 +1,20 @@
+:root{
+    --primary: #6A55EA;
+    --ash: #F1FBFB;
+    --white: #FFFFFF;
+    --black: #29313D;
+    --blue: #7968EF ;
+    --bluegradient: #818FA5;
+    --regular: 400;
+    --medium: 500;
+    --semibold:600;
+    --bold:700;
+    --poppins: 'Poppins', sans-serif ;
+    --nunito: 'Nunito', sans-serif;
+    --parafont: 18px;
+    --subpara: 24px;
+    --subheading: 48px;
+    --paraitem: 20px;
+    --paraheading: 28px;
+}
+/* 18px,20px,64px,16px,24px,48px,28px,36px */

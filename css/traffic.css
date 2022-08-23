@@ -1,0 +1,89 @@
+#traffic{
+    padding: 120px 0;
+}
+.para--weight{
+    font-weight: var(--bold);
+}
+.sub__para--padding{
+    padding: 24px 0 40px 0;
+}
+.counter__img{
+    position: absolute;
+}
+.counter__items{
+    position: relative;
+    margin: 0 30px;
+}
+.counter__para{
+    color: var(--black);
+    font-size: var(--subpara);
+    font-weight: var(--bold);
+    line-height: 24px;
+    text-transform: capitalize;
+    font-family: var(--nunito);
+    padding: 53px 38px 52px 39px;
+}
+.trafic__images{
+    position: relative;
+}
+.tr__crcle{
+    position: absolute;
+    top: 10%;
+    left: 5.1%;
+    animation: circ--two 2s linear infinite;
+    -webkit-animation: circ--two 2s linear infinite;
+}
+.tr__crcle__two{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    animation: circ--two 1s linear infinite;
+}
+.tr__crcle__thre{
+    position: absolute;
+    top: -10%;
+    left: 14.2%;
+    z-index: -1;
+    animation: circ--ther 2s linear infinite;
+    -webkit-animation: circ--ther 2s linear infinite;
+}
+.tr__crcle__four{
+    position: absolute;
+    top: -3.8%;
+    left: 18.4%;
+    z-index: -1;
+    animation: circ--two 2s linear infinite;
+    -webkit-animation: circ--two 2s linear infinite;
+}
+@keyframes circ--two{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    100%{
+         transform: rotate(360deg);
+         -webkit-transform: rotate(360deg);
+         -moz-transform: rotate(360deg);
+         -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+}
+}
+@keyframes circ--ther{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    100%{
+         transform: rotate(-360deg);
+         -webkit-transform: rotate(-360deg);
+         -moz-transform: rotate(-360deg);
+         -ms-transform: rotate(-360deg);
+         -o-transform: rotate(-360deg);
+}
+}

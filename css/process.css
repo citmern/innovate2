@@ -1,0 +1,90 @@
+#process{
+    padding: 120px 0;
+    background: var(--ash);
+}
+.process_header{
+    text-align: center;
+}
+.process__items{
+    background: #F8A64C;
+    text-align: center;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    position: relative;
+}
+.pr__hover, .pr__hover--bg, .pr__hover--bgs, .pr__hover--bges{
+    position: absolute;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    background: #F8A64C;
+    clip-path: polygon(100% 0, 0 0, 48% 100%);
+    opacity: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.process__items:hover .pr__hover, .process__items:hover .pr__hover--bg,  .process__items:hover .pr__hover--bges,  .process__items:hover .pr__hover--bgs
+{
+    opacity: 1;
+}
+.process__img{
+    padding-top: 38px;
+}
+.process__inner{
+    color: var(--white);
+    font-size: var(--subpara);
+    font-weight: var(--medium);
+    line-height: 33.6px;
+    text-transform: capitalize;
+    font-family: var(--poppins);
+    padding: 30px 30px 40px 30px;
+}
+.process__items:nth-child(2), .pr__hover--bg{
+    background: #F0EDFF;
+}
+.process__items:nth-child(3), .pr__hover--bgs{
+    background: #E8FCF2B2;
+}
+.process__items:nth-child(4), .pr__hover--bges{
+    background: #FEF6EC;
+}
+.cl{
+    color: var(--black);
+}
+.pb{
+    padding-top: 100px;
+}
+.pbt{
+    padding: 24px 0 48px 0;
+}
+.process__img__content{
+    width: 40%;
+}
+.process__content{ 
+    width: 45%;
+}
+.real__time{
+    color: var(--black);
+    font-size: 36px;
+    font-weight: var(--semibold) ;
+    line-height: 50.4px;
+    text-transform: capitalize;
+    font-family: var(--poppins);
+}
+.pra--padding{
+    color: #fff !important;
+    font-weight: var(--semibold);
+    background: var(--blue);
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
